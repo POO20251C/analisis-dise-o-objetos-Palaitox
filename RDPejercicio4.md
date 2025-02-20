@@ -3,6 +3,7 @@
 # Archivo en .md para visualizar el diagrama en Mermaid.
 # Ejercicio número 4: Tienda de música.
 
+```
 classDiagram
     class Album {
         - String codigo
@@ -37,3 +38,4 @@ classDiagram
 
     Cliente "1" --> "0..*" Compra : se-asocia
     Album "1" o-- "0..*" Compra : se-agrega
+```
